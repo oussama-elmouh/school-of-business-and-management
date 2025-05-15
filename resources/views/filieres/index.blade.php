@@ -1,6 +1,21 @@
-@extends('layouts.app')  <!-- Indique que cette page utilise le layout principal -->
+@extends('layouts.app')
 
-@section('content')  <!-- Contenu spécifique à la page des élèves -->
-    <h1>Liste des Élèves</h1>
-    <!-- Tableau des élèves ici -->
+@section('title', 'Dashbord')
+
+@section('content')
+<div class="bg-gray-100">
+  <div class="min-h-full">
+      <div class="py-10">
+      <header>
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h1 class="text-3xl font-bold leading-tight tracking-tight text-gray-900">Filires</h1>
+        </div>
+      </header>
+      <main>
+        <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        </div>
+      </main>
+    </div>
+  </div>
+  </div>
 @endsection
