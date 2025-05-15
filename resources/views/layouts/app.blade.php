@@ -15,6 +15,10 @@
         @yield('content')
     </main>
 
+       
+        @yield('tableau')
+    
+
 </body>
 </html>
 

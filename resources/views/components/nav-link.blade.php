@@ -19,7 +19,7 @@
     <a href="{{ route('dashbord') }}" class="{{ navClass('dashbord') }} inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium">
         Dashboard
     </a>
-    <a href="{{ route('eleves') }}" class="{{ navClass('eleves') }} inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium">
+    <a href="{{ route('eleves.index') }}" class="{{ navClass('eleves') }} inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium">
         Élève
     </a>
     <a href="{{ route('cours') }}" class="{{ navClass('cours') }} inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium">

@@ -33,8 +33,8 @@ Route::get('/filieres', function () {
     return view('filieres.index');
 })->name('filieres');
 
-/* 
-Route::get('eleves', [EleveController::class, 'index'])->name('eleves.index');
 
+Route::get('eleves', [EleveController::class, 'index'])->name('eleves.index');
+/* 
 Route::get('/eleves/{id}', [EleveController::class, 'show'])->name('eleves.show'); */
  
